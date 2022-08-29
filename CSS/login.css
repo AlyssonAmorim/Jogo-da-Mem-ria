@@ -1,0 +1,64 @@
+/*Aqui estou mudando o a forma que quero o login do projeto */
+.login-form {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* altura da viwport*/
+    justify-content: center;
+}
+/*Aqui estou mudando o a form que quero o meu formulário */
+.login_header {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+/* Aquii posso modificar a imagem da capa */
+.login_header img {
+    width: 100px;
+}
+/*Aqui mudo o texto*/
+.login_header h1 {
+    color: rgb(238, 58, 58);
+    font-size: 1.5em;
+}
+/*Aqui vou mexer no login (name), onde vou estilizar a borda dele e tc*/
+.login_input {
+    border: 2px solid #333;
+    border-radius: 8px; /*Esse serve para deixar arredondado*/
+    color: #333;
+    font-size: 1em; /*Tamanho da fonte que quero deixar dentro do quadradro*/
+    margin-bottom: 15px;
+    max-width: 300px; /*Px significa exatamente a quantidade de pixel que vai preencher*/
+    outline: none;
+    padding: 15px; /*pra dar espaçamento e preencher*/
+    width: 100%; /*Aqui modifico a largura da minha janela*/
+}
+/*Aqui estou estilizando o botão do play, porém desabilitei ele no html inserindo disabled*/
+.login_button {
+    background-color:salmon;
+    border-radius: 8px;
+    color: rgb(128, 9, 9);
+    cursor: pointer;
+    font-size: 1em; /*muda do tamanho da fonte *play**/
+    max-width: 300px; /*Como tem o tamnanho da whidth, temos que dar um limite pra ele usando esse cod*/
+    padding: 15px;
+    width: 100%;
+}/*Aqui vamos estilizar ele para quando ele for habilitado. Só habilita quando preencher o nome*/ 
+.login_button:disabled {
+    background-color: #eee;
+    color: #aaa;
+    cursor: auto;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(241, 76, 131);
+    color: #FFF;
+    width: 100%;
+    height: 100px;    
+    text-align: center;
+    line-height: 100px;
+}
